@@ -1,0 +1,7 @@
+{
+    "terminal.integrated.commandsToSkipShell": [
+        "workbench.list.mouseWheelScrollSensitivity",
+        "workbench.list.fastScrollSensitivity",
+        "editor.mouseWheelScrollSensitivity"
+    ]
+}
