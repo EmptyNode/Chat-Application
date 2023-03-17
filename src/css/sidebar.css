@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-between;
     border-right: 1px solid lightgray;
-    padding: 10px;
+    padding: 14px;
     background-color: #ededed;
 }
 
@@ -17,17 +17,24 @@
     justify-content: space-between;
     min-width: 10vw;
 }
+.pagol{
+    font-size:;
+}
 
 .sidebar__headerRight svg {
-    font-size: 18px;
+    font-size: 30px;
 }
+.MuiSvgIcon-root{
+    padding: 0 20px;
+}
+
 
 .sidebar__search {
     display: flex;
     align-items: center;
     background-color: #f6f6f6;
     height: 40px;
-    padding: 10px;
+    padding: 9px;
 }
 
 .side__searchContainer {
@@ -51,7 +58,7 @@
     display: flex;
     align-items: center;
     border-bottom: 1px solid #eaeaea;
-    padding: 10px;
+    padding: 20px;
 
 }
 

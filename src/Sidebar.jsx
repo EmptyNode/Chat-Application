@@ -27,17 +27,17 @@ function Sidebar() {
     return (
         <div className="sidebar">
             <div className="sidebar__header">
-                <Avatar src={user.photoURL} onClick={e=>firebase.auth().signOut()}/>
+                <Avatar className='pagol' src={user.photoURL} onClick={e=>firebase.auth().signOut()}/>
                 <div className="sidebar__headerRight">
-                    <IconButton>
+                    <IconButton style={{borderRadius: 100}}>
                         <DonutLargeIcon />
                     </IconButton>
 
-                    <IconButton>
+                    <IconButton style={{borderRadius: 100}}>
                         <ChatIcon />
                     </IconButton>
 
-                    <IconButton>
+                    <IconButton style={{borderRadius: 100}}>
                         <MoreVertIcon />
                     </IconButton>
                 </div>
