@@ -2,10 +2,11 @@
     display: grid;
     place-items: center;
     height: 100vh;
+    background-color: #0A141B;
 }
 .login{
     width: 400px;
-    background-color: rgb(223,223,223);
+    background-color: #37d4ff;
     padding: 20px;
     text-align: center;
     border-radius: 20px;
@@ -17,7 +18,7 @@
     margin: 20px 0px;
 }
 .login button{
-    background-color: #3fc350;
+    background-color: #0A141B;
     color: #fff;
     border: 0px;
     padding: 10px 20px;

@@ -1,14 +1,19 @@
 .sidebar {
     flex: 0.35;
-    background-color: #fff;
+    background-color: #0A141B;
+    border-right: 1px solid rgb(73, 73, 73);
+    overflow: auto;
 }
 
 .sidebar__header {
     display: flex;
     justify-content: space-between;
-    border-right: 1px solid lightgray;
-    padding: 14px;
-    background-color: #ededed;
+    padding: 20px;
+    background-color: #0D1B24;
+    position: relative;
+    position: sticky;
+    top: 0;
+    z-index: 999;
 }
 
 .sidebar__headerRight {
@@ -17,24 +22,35 @@
     justify-content: space-between;
     min-width: 10vw;
 }
-.pagol{
-    font-size:;
+
+
+
+.sidebarHeaderIcons {
+    position: absolute;
+    font-size: 30px !important;
+    color: white !important;
+    padding: 12px 12px !important;
+    border-radius: 50% !important;
+    left: -50px;
 }
 
-.sidebar__headerRight svg {
-    font-size: 30px;
+.sidebarHeaderIcons:hover {
+    background-color: #1e4054;
 }
-.MuiSvgIcon-root{
+
+.MuiSvgIcon-root {
     padding: 0 20px;
+    color: black;
 }
 
 
 .sidebar__search {
     display: flex;
     align-items: center;
-    background-color: #f6f6f6;
+    background-color: #0D1B24;
     height: 40px;
     padding: 9px;
+    width: 100%;
 }
 
 .side__searchContainer {
@@ -57,32 +73,36 @@
 .sidebar__chat {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #eaeaea;
+    /* border-bottom: 1px solid #eaeaea; */
     padding: 20px;
+    color: white;
 
 }
 
 .sidebar__chats {
     display: flex;
     flex-direction: column;
-    background-color: #fff;
+    background-color: #0A141B;
 }
 
 .sidebar__chat:hover {
     cursor: pointer;
-    background-color: #ebebeb;
+    background-color: #00ACDA;
 }
 
 .sidebar__chatInfo {
     margin-left: 15px;
+
 }
 
 .sidebar__chatInfo h2 {
     font-size: 16px;
+    color: white;
 }
 
 .sidebar__chatInfo p {
     font-size: 12px;
+    color: white;
 }
 
 .sidebar__chat>h2 {
@@ -93,4 +113,5 @@
 .sidebar__chat .MuiAvatar-circular {
     width: 30px;
     height: 30px;
+
 }

@@ -29,23 +29,23 @@ function Sidebar() {
             <div className="sidebar__header">
                 <Avatar className='pagol' src={user.photoURL} onClick={e=>firebase.auth().signOut()}/>
                 <div className="sidebar__headerRight">
-                    <IconButton style={{borderRadius: 100}}>
-                        <DonutLargeIcon />
+                    <IconButton >
+                        <DonutLargeIcon className='sidebarHeaderIcons'/>
+                    </IconButton >
+
+                    <IconButton >
+                        <ChatIcon className='sidebarHeaderIcons' />
                     </IconButton>
 
-                    <IconButton style={{borderRadius: 100}}>
-                        <ChatIcon />
-                    </IconButton>
-
-                    <IconButton style={{borderRadius: 100}}>
-                        <MoreVertIcon />
+                    <IconButton >
+                        <MoreVertIcon className='sidebarHeaderIcons' />
                     </IconButton>
                 </div>
             </div>
             <div className="sidebar__search">
                 <div className="side__searchContainer">
                     <SearchIcon />
-                    <input type="text" placeholder="Search or start a new chat" />
+                    <input type="text" placeholder="Search or start a new chat" />++
                 </div>
             </div>
 

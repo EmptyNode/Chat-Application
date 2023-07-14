@@ -2,6 +2,7 @@ import React from 'react'
 import "./css/login.css"
 import { auth, provider } from './firebase'
 import { useStateValue } from './StateProvider';
+import logo from './logo.png'
 function Login() {
   const [{}, dispatch]= useStateValue()
   const signIn=()=>{
@@ -15,7 +16,7 @@ function Login() {
   return (
 <div className="login__wrapper">
     <div className="login">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/512px-WhatsApp.svg.png "/>
+        <img src={logo}/>
         <h2>sign in to whatsapp</h2>
         <button onClick={signIn}>Login with gmail</button>
     </div>

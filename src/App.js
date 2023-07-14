@@ -27,7 +27,7 @@ function App() {
       <Switch>
         {!user? (<Login/>):(
         <div className="App">
-          <div className='app__body'>
+          <div className='app__body'>no
             <Sidebar />
             <Route exact path="/">
               <Chat />

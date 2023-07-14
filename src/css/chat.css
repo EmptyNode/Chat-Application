@@ -6,7 +6,8 @@
 .chat .chat__header{
     display: flex;
     align-items: center;
-    border-bottom: 1px solid lightgray;
+    border-bottom: 1px solid #494949;
+    background-color: white;
     padding: 10px;
 }
 
@@ -17,17 +18,19 @@
 
 .chat__headerInfo h3{
     font-size: 16px;
+    color: white;
 }
 .chat__headerInfo p{
     font-size: 12px;
+    color: white;
 }
 .header__right svg{
     font-size: 18px;
+    color: white;
 }
 .chat__body{
-    background-color: #000;
+    background-color: white;
     flex:1;
-    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/aec89173426833.5c08f56351139.png");
     padding: 25px 10px;
     overflow-y: auto;
 }
