@@ -2,7 +2,8 @@
     flex: 0.35;
     background-color: #0A141B;
     border-right: 1px solid rgb(73, 73, 73);
-    overflow: auto;
+    /* z-index: 0; */
+    overflow-y: scroll;
 }
 
 .sidebar__header {
@@ -14,6 +15,14 @@
     position: sticky;
     top: 0;
     z-index: 999;
+}
+
+.custom-color{
+    background-color: #1e4054; /* Replace this with your desired background color */
+    color: white;
+    font-size: medium;
+    padding: 8px;
+    border-radius: 4px;
 }
 
 .sidebar__headerRight {
@@ -48,23 +57,24 @@
     display: flex;
     align-items: center;
     background-color: #0D1B24;
-    height: 40px;
-    padding: 9px;
+    padding: 9px 0;
     width: 100%;
 }
-
+/* ------------------------------------------------------------------ */
 .side__searchContainer {
     display: flex;
+    justify-content: center;
     align-items: center;
-    background-color: #fff;
     height: 35px;
     border-radius: 20px;
-    width: 100%;
+    width: 95%;
+    margin-left: 8px;
 }
 
 .side__searchContainer input {
     border: 0;
-    margin-left: 10px;
+    margin: 0 16px;
+
     outline: 0;
     width: 100%;
 

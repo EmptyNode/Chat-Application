@@ -90,7 +90,7 @@ function Chat() {
                 <EmojiEmotionsIcon />
                 <AttachFileIcon />
                 <form id='form' onSubmit={setMessage}>
-                    <input type="text" placeholder='type your message' onChange={e => setInput(e.target.value)} />
+                    <input type="text" className='inputArea' placeholder='type your message' onChange={e => setInput(e.target.value)} />
                     <input type="submit" />
                 </form>
                 <MicIcon />

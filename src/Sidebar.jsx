@@ -44,8 +44,8 @@ function Sidebar() {
             </div>
             <div className="sidebar__search">
                 <div className="side__searchContainer">
-                    <SearchIcon />
-                    <input type="text" placeholder="Search or start a new chat" />++
+                    {/* <SearchIcon /> */}
+                    <input type="text" placeholder="Search or start a new chat" className='custom-color'/>
                 </div>
             </div>
 

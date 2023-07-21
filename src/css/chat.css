@@ -6,8 +6,8 @@
 .chat .chat__header{
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #494949;
-    background-color: white;
+    border-bottom: 1px solid rgb(73, 73, 73);
+    background-color: #081823;
     padding: 10px;
 }
 
@@ -29,14 +29,14 @@
     color: white;
 }
 .chat__body{
-    background-color: white;
+    background-color: #091112;
     flex:1;
     padding: 25px 10px;
     overflow-y: auto;
 }
 .chat__message{
     position: relative;
-    background-color: white;
+    background-color: #0edcf8;
     width: fit-content;
     padding: 5px;
     border-radius: 5px;
@@ -45,6 +45,7 @@
 }
 
 .chat__name{
+    color: white;
     position: absolute;
     top: -18px;
     left: 2px;
@@ -63,10 +64,11 @@
     display: flex;
     align-items: center;
     padding: 10px;
+    background-color: #0D1B24;
 }
 .chat__footer svg{
     padding: 10px;
-    color: gray;
+    color: white;
 }
 .chat__footer form{
     flex: 1;
@@ -75,7 +77,11 @@
     border: 0;
     height: 40px;
     outline: 0;
-    width: 100%;
+    width: 98%;
+    background-color: #1e4054;
+    border-radius: 6px;
+    padding-left: 15px;
+    color: white;
 }
 .chat__footer form input[type="submit"]{
     display: none;

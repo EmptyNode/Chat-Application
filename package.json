@@ -16,6 +16,7 @@
     "react-is": "^18.2.0",
     "react-router-dom": "^5.3.4",
     "react-scripts": "5.0.1",
+    "simplebar": "^6.2.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
